@@ -16,7 +16,7 @@ public class UploadPhotoHandler
         _photoRepository = photoRepository;
     }
 
-    public async Task<Result<Guid> HandleAsync(PhotoDto photoDto, Stream content)
+    public async Task<Result<Guid>> HandleAsync(PhotoDto photoDto, Stream content)
     {
         if(content == null || content.Length == 0)
             return Result<Guid>.Fail("Photo content is empty");

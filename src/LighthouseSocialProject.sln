@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LighthouseSocialProject.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LighthouseSocialProject.Application", "LighthouseSocialProject.Application\LighthouseSocialProject.Application.csproj", "{DAF3B305-18EF-4941-B06A-E90533E48D28}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9AD6AD61-B2AB-47E1-8723-45393B770FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LighthouseSocialProject.Application.Tests", "LighthouseSocialProject.Application.Tests\LighthouseSocialProject.Application.Tests.csproj", "{388897B4-E448-4C15-9B97-3342010E6669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{DAF3B305-18EF-4941-B06A-E90533E48D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF3B305-18EF-4941-B06A-E90533E48D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF3B305-18EF-4941-B06A-E90533E48D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388897B4-E448-4C15-9B97-3342010E6669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388897B4-E448-4C15-9B97-3342010E6669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388897B4-E448-4C15-9B97-3342010E6669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388897B4-E448-4C15-9B97-3342010E6669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{388897B4-E448-4C15-9B97-3342010E6669} = {9AD6AD61-B2AB-47E1-8723-45393B770FD6}
 	EndGlobalSection
 EndGlobal

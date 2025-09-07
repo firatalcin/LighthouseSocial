@@ -26,7 +26,7 @@ public class CreateLighthouseHandler
         Country? country;
         try
         {
-            country = await _countryDataReader.GetByIdAsync(dto.CountryId);
+            country = _countryDataReader.GetById(dto.CountryId);
         }
         catch (Exception e)
         {
