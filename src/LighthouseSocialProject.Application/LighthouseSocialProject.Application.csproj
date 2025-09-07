@@ -10,8 +10,4 @@
       <ProjectReference Include="..\LighthouseSocialProject.Domain\LighthouseSocialProject.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Features\" />
-    </ItemGroup>
-
 </Project>
